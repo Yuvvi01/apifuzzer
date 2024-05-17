@@ -1,6 +1,6 @@
-Sure, here's an effective README for your API Fuzzer tool:
 
-```
+
+```markdown
 # API Fuzzer
 
 API Fuzzer is a Python-based tool designed to test APIs for potential vulnerabilities or misconfigurations. It sends HTTP requests to a specified URL with each word from a provided wordlist and logs the responses.
@@ -46,4 +46,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📄 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-```
