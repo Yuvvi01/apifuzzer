@@ -17,9 +17,9 @@ pip install tqdm
 
 To use this tool, run it from the command line with the desired options:
 
-```bash
+
 python apifuzzer.py -url http://example.com -wordlist /path/to/wordlist -method GET -headers '{"User-Agent": "My Fuzzer"}' -cookies '{"session": "123456"}' -delay 1 -concurrency 10 -status_code 200 -content_type 'text/html' -auth '("username", "password")'
-```
+
 
 This command would start fuzzing the `http://example.com` URL using the GET method, the specified headers and cookies, a delay of 1 second between requests, up to 10 concurrent requests, and filtering results for a status code of 200 and a content type of 'text/html'. It would use the wordlist located at `/path/to/wordlist` and Basic Auth with username 'username' and password 'password'. The results would be written to an output file.
 
