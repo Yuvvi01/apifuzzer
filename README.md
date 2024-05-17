@@ -9,7 +9,7 @@ API Fuzzer is a Python-based tool designed to test APIs for potential vulnerabil
 
 You need Python 3.x and the following packages:
 
-```
+```bash
 pip install requests
 pip install tqdm
 ```
