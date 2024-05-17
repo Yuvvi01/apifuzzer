@@ -5,7 +5,7 @@
 
 API Fuzzer is a Python-based tool designed to test APIs for potential vulnerabilities or misconfigurations. It sends HTTP requests to a specified URL with each word from a provided wordlist and logs the responses.
 
-## 📦 Installation
+##  Installation
 
 You need Python 3.x and the following packages:
 
@@ -14,7 +14,7 @@ pip install requests
 pip install tqdm
 ```
 
-## 🚀 Usage
+##  Usage
 
 To use this tool, run it from the command line with the desired options:
 
@@ -24,7 +24,7 @@ python apifuzzer.py -url http://example.com -wordlist /path/to/wordlist -method 
 
 This command would start fuzzing the `http://example.com` URL using the GET method, the specified headers and cookies, a delay of 1 second between requests, up to 10 concurrent requests, and filtering results for a status code of 200 and a content type of 'text/html'. It would use the wordlist located at `/path/to/wordlist` and Basic Auth with username 'username' and password 'password'. The results would be written to an output file.
 
-## 📝 Command Line Arguments
+##  Command Line Arguments
 
 Here are the available options:
 
@@ -39,7 +39,7 @@ Here are the available options:
 - `-content_type`: The content type to filter results (default is 'text/html').
 - `-auth`: The authentication to use (e.g., `("username", "password")` for Basic Auth).
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
