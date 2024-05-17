@@ -27,13 +27,13 @@ This command would start fuzzing the `http://example.com` URL using the GET meth
 
 Here are the available options:
 
-- `-url`: The URL to fuzz.
-- `-wordlist`: The path to the wordlist or directory.
-- `-method`: The HTTP method to use (default is 'GET').
-- `-headers`: The headers to use (default is `{"User-Agent": "My Fuzzer"}`).
-- `-cookies`: The cookies to use (default is `{"session": "123456"}`).
-- `-delay`: The delay between requests (default is 1 second).
-- `-concurrency`: The number of concurrent requests (default is 10).
-- `-status_code`: The status code to filter results (default is 200).
-- `-content_type`: The content type to filter results (default is 'text/html').
-- `-auth`: The authentication to use (e.g., `("username", "password")` for Basic Auth).
+- -url: The URL to fuzz.
+- -wordlist: The path to the wordlist or directory.
+- -method: The HTTP method to use (default is 'GET').
+- -headers: The headers to use (default is {"User-Agent": "My Fuzzer"}).
+- -cookies: The cookies to use (default is {"session": "123456"}).
+- -delay: The delay between requests (default is 1 second).
+- -concurrency: The number of concurrent requests (default is 10).
+- -status_code: The status code to filter results (default is 200).
+- -content_type: The content type to filter results (default is 'text/html').
+- -auth: The authentication to use (e.g., ("username", "password") for Basic Auth).
